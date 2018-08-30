@@ -111,20 +111,20 @@ Designed and Development by: ScriptsBundle
 	  width: '100%'
 	});
 	$(".make").select2({
-	  placeholder: "Select Make : Any make",
+	  placeholder: "Search Make",
 	  width: '100%'
 	});
 	$(".model").select2({
-	  placeholder: "Select Model : Any model",
+	  placeholder: "Search Model",
 	  width: '100%'
 	});
-	$(".bodytype").select2({
-	  placeholder: "Body Type : Select body type",
+	$(".zipcode").select2({
+	  placeholder: "Enter Zipcode: Eg. 90210",
 	  width: '100%'
 	});
 	$(".search-year").select2({
-	  placeholder: "Select Year : Any Year",
-	  allowClear: true,
+	  placeholder: "Select Year",
+	  /* allowClear: true, */
 	  width: '100%'
 	});
   /* ======= Animation ======= */

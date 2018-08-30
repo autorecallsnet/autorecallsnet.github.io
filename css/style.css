@@ -76,6 +76,32 @@ Designed and Development by: ScriptsBundle
 =====================================
 */
 
+/* =-=-=-=-=-=-= Edits =-=-=-=-=-=-= */
+@media (max-width: 991px) {
+  .col-sm-6 {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-sm-6 {
+    width: 33%;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+  }
+
+}
+
+.main-title {
+    color: #232323;
+}
+
+.main-title2 {
+    color: #E52D27;
+}
+
 /* =-=-=-=-=-=-= General Styling =-=-=-=-=-=-= */
 html, body {
 	height: 100%;
@@ -379,7 +405,7 @@ iframe {
 
 h1, h2, h3, h4, h5, h6 {
 	position: relative;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Noto Sans', sans-serif;/*'Poppins', sans-serif;*/
 	font-weight: normal;
 	margin: 0px;
 	background: none;
@@ -391,7 +417,7 @@ h1 {
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 26px;
 }
 
 h3 {
@@ -438,10 +464,11 @@ p {
 	border-radius: 1px;
 	box-shadow: none;
 	color: #555;
-	font-size: 14px;
+	font-size: 16px;
 	height: auto;
 	padding: 15px 12px;
 	transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
+    font-family: "Source Sans Pro",sans-serif;	
 }
 
 ul {
@@ -1110,12 +1137,12 @@ img.resize {
 
 .search-container h2 {
 	color: #fff;
-	font-size: 36px;
+	font-size: 50px;
 	margin-bottom: 5px;
 }
 
 .search-container p {
-	color: #fff;
+	color: #9c1001;/*#fff;*/
 	margin-bottom: 25px;
 	font-size: 20px;
 }
@@ -1536,7 +1563,7 @@ img.resize {
 }
 
 .category-grid-box-1 a {
-	color: #232323;
+	color: #E52D27;
 	font-weight: 500;
 }
 
@@ -1651,7 +1678,7 @@ img.resize {
 }
 
 .location {
-	color: #a0a0a0;
+	color: #232323;
 	font-size: 16px;
 	margin-bottom: 20px;
 }
@@ -9346,8 +9373,8 @@ footer.footer-bg {
 	padding-bottom: 110px;
 	position: relative;
 	border-top: 1px dashed #ddd;
-	    background: rgba(0, 0, 0, 0) url("../images/footer-banner.png") repeat-x scroll center bottom;
-
+	    /*background: rgba(0, 0, 0, 0) url("../images/footer-banner.png") repeat-x scroll center bottom;
+*/
 }
 
 .footer-bg .footer-top, .footer-bg .copyrights {
